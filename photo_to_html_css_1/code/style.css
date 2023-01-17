@@ -1,0 +1,115 @@
+body {
+  margin: auto;
+  width: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topSection {
+  text-align: center;
+}
+
+.topSection h1 {
+  font-size: 42px;
+  margin-top: 4vh;
+  color: rgb(212, 98, 63);
+  letter-spacing: 2px;
+}
+
+.topSection h5 {
+  margin-top: -1.5vh;
+  margin-bottom: 3.5vh;
+}
+
+.leftRightSectionsWrapper {
+  display: flex;
+}
+
+.leftSection {
+  background-color: rgb(212, 98, 63);
+  padding-top: 60px;
+  width: 41%;
+  height: 56vh;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.singleInfoWrapper {
+  color: wheat;
+  margin-top: 19px;
+  padding-left: 14px;
+}
+
+.singleInfoWrapper h1 {
+  font-size: 10px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  opacity: 0.85;
+}
+
+.singleInfoWrapper p {
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-top: 1px;
+}
+
+.singleInfoWrapper a {
+  color: white;
+}
+
+.singleInfoWrapper:last-child p {
+  margin-top: 30px;
+}
+
+.btnsWrapper i {
+  color: white;
+  opacity: 0.9;
+  margin-right: 3px;
+  font-size: smaller;
+  cursor: pointer;
+}
+
+.rightSection {
+  width: 59%;
+  height: 56vh;
+  margin-left: 2.3vw;
+}
+
+.rightSection img {
+  width: 100%;
+  border-radius: 14px;
+}
+
+.statsWrapper {
+  margin-top: 3vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  row-gap: 32px;
+}
+.singleStat h4 {
+  font-size: 10px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+.singleStat p {
+  color: rgb(212, 98, 63);
+  font-size: 38px;
+  font-weight: 800;
+  margin-top: -0.6vh;
+}
+
+.rightSection button {
+  background-color: rgb(212, 98, 63);
+  color: white;
+  border: none;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 10px;
+  letter-spacing: 0.8px;
+}
+
+.rightSection button:hover {
+  background-color: rgb(201, 86, 51);
+}
